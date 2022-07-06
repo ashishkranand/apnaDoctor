@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+    rel="icon"
+    href="https://images-na.ssl-images-amazon.com/images/I/51B3tMArjiL.png"
+    type="image/x-icon"
+  />
+  <title>Apna doctor - Login page</title>
+  <link rel="stylesheet" href="css/loginStyle.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  
+</head>
+
+<body>
+    <nav class="navbar navbg h-nav-resp">
+        <ul class="nav-list v-class-resp">
+          <div class="logo">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/51B3tMArjiL.png"
+              alt="Logo"
+            />
+          </div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="medicine.html">Medicines</a></li>
+          <li><a href="checkup.html">Health checkup</a></li>
+          <li><a href="Login.html">Login / Sign up</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+          <input type="text" name="search" id="search" />
+          <button class="btns btn-sm">Search</button>
+        </div>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <section class="background firstSection" id="home">
+
+   <div class="allbutton">
+    <button class="butt"  id="btnlogin" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    <button class="butt" id="btnregister" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Register</button>
+</div>
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close annimate" title="Close Modal">×</span>
+                <img src=
+"https://images-na.ssl-images-amazon.com/images/I/51B3tMArjiL.png" alt="Avatar" class="avatar">
+            </div>
+  
+            <div class="container">
+                <h2 class="h2heading">Login</h2>
+                <input class="inputdetail" type="text" placeholder="Enter Username" name="uname" required>
+                <input class="inputpassword" type="password" placeholder="Enter Password" name="psw" required>
+  
+                <button class=" bt" type="submit">Login</button><br>
+                <p class="h2heading"><input  type="checkbox" checked="checked"> Remember me</p>
+            </div>
+  
+            <div class="container" style="background-color:#f1f1f1">
+                <button  type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+  
+
+
+
+
+
+    <div id="id02" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+                <img src=
+"https://images-na.ssl-images-amazon.com/images/I/51B3tMArjiL.png" alt="Avatar" class="avatar">
+            </div>
+  
+            <div class="container">
+                <h2 class="h2heading">Register</h2>
+                <input class="inputdetail" type="text" placeholder="Enter Name" name="name" required>
+                <input class="inputdetail" type="text" placeholder="Enter email" name="email" required>
+                <input class="inputdetail" type="text" placeholder="Enter Phone number" name="phone" required>
+                <input class="inputpassword" type="password" placeholder="Enter Password" name="psw" required>
+                <input class="inputpassword" type="password" placeholder="Enter Confirm Password" name="psw" required>
+
+  
+                <button class=" bt" type="submit">Register</button>
+            </div>
+  
+            <div class="container" style="background-color:#f1f1f1">
+                <button  type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                
+            </div>
+        </form>
+    </div>
+  
+
+      </section>
+
+
+
+
+
+
+
+
+      <footer class="bgfooter">
+        <div class="own">
+            <h2>Ashish kumar anand</h2>
+            <h4>8434463000</h4>
+            <h4>ashishraj5296@gmail.com</h4>
+            <h4>Saharsa , Bihar (India)</h4>
+          </div>
+        <p class="text-footer">
+          copyright &copy; 2025 www.apnadoctorindia.com - All right reserved
+        </p>
+      </footer>
+      <script src="js/resp.js"></script>
+</body>
+
+</html>

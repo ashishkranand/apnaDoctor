@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+    rel="icon"
+    href="https://images-na.ssl-images-amazon.com/images/I/51B3tMArjiL.png"
+    type="image/x-icon"
+  />
+    <title>Apna doctor - Register page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(https://emergencyexpertforyou.com/wp-content/uploads/2017/06/Fotolia_95792793_Subscription_Monthly_M.jpg);
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        /* Add padding to containers */
+        
+        form {
+            border: 3px solid #f1f1f1;
+            height: 25%;
+            width: 25%;
+            margin-left: 35%;
+        }
+        
+        .container {
+            padding: 16px;
+            background-color: transparent;
+        }
+        /* Full-width input fields */
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        /* Overwrite default styles of hr */
+        
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+        /* Set a style for the submit button */
+        
+        .registerbtn {
+            background-color: #f50b0b;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        
+        .registerbtn:hover {
+            opacity: 1;
+        }
+        
+        
+        a {
+            color: dodgerblue;
+        }
+        
+        
+        .signin {
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+        
+        h1 {
+            color: azure;
+        }
+        
+        .para {
+            color: azure;
+        }
+        
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/action_page.php">
+        <div class="imgcontainer">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvWEx7lb-sMUBc3gTWM_hOKlkxfCqAvWnba92ClKsKlAn0bWC-1CwxnQKbZxF9jFf-PGE&usqp=CAU" height="10%" width="10%" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+
+            <input type="text" placeholder="Enter name" name="name" id="name" required>
+            <input type="text" placeholder="Enter email id" name="email" id="email" required>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+            
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container signin">
+            <p>Already have an account? <a href="Login.html">Sign in</a>.</p>
+            &nbsp;&nbsp; &nbsp;
+            <a href="project1.html">Go to Home </a>
+        </div>
+    </form>
+
+</body>
+
+</html>

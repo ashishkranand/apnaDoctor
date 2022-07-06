@@ -1,0 +1,113 @@
+@media only screen and (max-width:1162px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 480px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    #btns{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px 0px;
+    }
+    .column {
+    justify-content: center;
+    align-items: center;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+     
+        .modal-content{
+            width: 70%;
+        
+        }
+        .cancelbtn{
+            margin-left: 70px;
+        }
+       
+        
+}
+@media only screen and (min-width : 150px) and (max-width : 780px)
+{
+
+	.search
+	{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+}
+@media only screen and (max-width:1162px){
+    .firstpart{
+        height: 300px;
+        width: 40%;
+        margin-left: 100px;
+       
+    }
+    .firstpart{
+        height: 450px;
+        width: 70%;
+        color: black;
+        border: 2px solid white;
+        margin-left: 150px;
+       
+    }
+    .firstImage{
+        height: 400px;
+        width: 500px;
+        }
+}
+@media only screen and (max-width:715px){
+    .firstpart{
+       
+        margin-left: 25px;
+       
+    }
+    .firstImage{
+        height: 400px;
+        width: 400px;
+        }
+}
+@media only screen and (max-width:400px){
+    .firstpart{
+       
+        margin-left: 5px;
+       
+    }
+    .firstImage{
+        
+        width: 200px;
+        }
+}
